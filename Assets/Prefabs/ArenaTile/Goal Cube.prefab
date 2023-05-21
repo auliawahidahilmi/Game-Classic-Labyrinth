@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7548952512182687450}
   - component: {fileID: 3568703569488884586}
   m_Layer: 0
-  m_Name: Hole
+  m_Name: Goal Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4a9a2346e56c2469e79ccb2beab285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customEvent: {fileID: 11400000, guid: 5351706574028904ca08a0222cb2559a, type: 2}
+  customEvent: {fileID: 11400000, guid: e85b818e822efb54a8ebe9c4f8dfd65c, type: 2}
 --- !u!65 &3568703569488884586
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -121,7 +121,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 765dcab417124e640a5fc3f9389c9ddc, type: 2}
+  - {fileID: 2100000, guid: b41c56a75011b4e40a2b99344585cf5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
